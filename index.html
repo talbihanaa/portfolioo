@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,69 +19,70 @@
         
     </nav>
    <!----------------------about-------------------------->
-    <section  id="about">
+    <section class="hero" id="about">
         
            
                 
-                    
+                    <div class="image">
                         <img class="fluid-img " src="images/hanaa.jpg" alt="" width="300" height="400">
-                    
+                    </div>
                 
                 
-                    
+                    <div class="infor-personelle">
                         
-                            
-                                
-                                    <h1>"Welcome to my cv"</h1>
+                            <div class="info">
+                                <div class="d-flex">
+                                    <h1 class="mon-cv">"Welcome to my cv"</h1>
 
-                                
-                                <h2>I'm<br><span>hana talbi</span><br>based in Tunisia</h2>
+                                </div>
+
+                                <h2>I'm<br><span class="dev">hana talbi</span><br>based in Tunisia</h2>
 
 
                                 <ul>
                                     <li>
-                                        <div>
+                                        <div class="text">
                                             Name:
                                         </div>
-                                        <div>Hana</div>
+                                        <div class="value">Hana</div>
 
 
                                     </li>
                                     <li>
-                                        <div>
+                                        <div class="text">
                                             First Name:
                                         </div>
-                                        <div>Talbi</div>
+                                        <div class="value">Talbi</div>
 
 
 
                                     </li>
                                     <li>
-                                        <div>
+                                        <div class="text">
                                             Age:
                                         </div>
-                                        <div>24</div>
+                                        <div class="value">24</div>
                                     </li>
                                     <li>
-                                        <div>
+                                        <div class="text">
                                             Phone:
                                         </div>
-                                        <div>26915849</div>
+                                        <div class="value">26915849</div>
                                     </li>
                                     <li>
-                                        <div>
+                                        <div class="text">
                                             Email:
                                         </div>
-                                        <div>Hana.Talbi87@gmail.com</div>
+                                        <div class="value">Hana.Talbi87@gmail.com</div>
                                     </li>
                                 </ul>
-                                <div>
-                                    <a href="">Download cv</a>
+                                <div class="mt-4">
+                                    <a class="main-btn" href="">Download cv</a>
                                 </div>
-                            
+                            </div>
 
                         
-                    
+                    </div>
                 
 
             
@@ -103,9 +104,8 @@
     <!----------------services----------------->
     <div id="services">
         
-            <h1> Services</h1>
-            
-            
+            <h1 class="sub-titles"> Services</h1>
+            <div class="services-list div">
                 <div>
                    
                     <h2>Web Design</h2>
@@ -133,18 +133,18 @@
                     </p>
                     <a href="#">learn more</a>
                 </div>
-            
+            </div>
         
     </div>
     <!--------------hobbies-------------->
-    <section id="hobbies">
+    <section class="hobbies" id="hobbies">
        
             
-                <h1>Hobbies</h1>
-               
-                    <div>
+                <h1 class="sub_title">Hobbies</h1>
+                <div class="work-list">
+                    <div class="work">
                         <img src="images/p-1.jpeg">
-                        <div>
+                        <div class="layer">
                             <h3>Reading</h3>
                             <p>Reading are among the hobbies that giv the owner great dignity
                                 , give him a very broad horizon
@@ -152,18 +152,18 @@
                             
                         </div>
                     </div>
-                    <div>
+                    <div class="work">
                         <img src="images/p-2.jpeg">
-                        <div>
+                        <div class="layer">
                             <h3>Peint</h3>
                             <p>Drawing is one of the beautiful hobbies that some people have</p>
     
                             
                         </div>
                     </div>
-                    <div>
+                    <div class="work">
                         <img src="images/p-3.jpeg">
-                        <div>
+                        <div class="layer">
                             <h3>Sport</h3>
                             <p>Sport it is a physical activity or skill that is practiced according
                                 to agreed-upon laws with the aim of entertainment...
@@ -171,34 +171,34 @@
                             
                         </div>
                     </div>
-                
+                </div>
                 <a href="#" class="bttn">See more</a>
             
         
     </section>
     <!--------------contact--------------->
-    <section id="contact">
+    <section class="contact" id="contact">
         
             
-                    <div>
-                        <h1>Contact Me</h1>
+                    <div class="contact-left ">
+                        <h1 class="sub_title">Contact Me</h1>
                         <p>Hana.talbi87@gmail.com</p>
                         <p>+21626915849</p>
                         
     
                     </div>
-                    <div>
+                    <div class="contact-right">
                         <form>
-                            <div>
+                            <div class="input">
                                 <input type="text" name="name" placeholder="your Name" required>
                             </div>
-                            <div>
+                            <div class="input">
                                 <input type="email" name="email" placeholder="Your Email" required>
                             </div>
-                            <div>
+                            <div class="input">
                                 <textarea rows="6" placeholder="Your Message*" required></textarea>
                             </div>
-                            <div>
+                            <div class="text-center">
                                 <button type="submit"class="btn">Send</button>
                             </div>
                         </form>
@@ -209,8 +209,8 @@
                     
         
     </section>
-    <!-----------------footer----------------------->
-    <div>
+    <!----------------footer---------------->
+    <div class="copyright">
         <p>Copyright Hana Talbi</p>
     </div>
      
