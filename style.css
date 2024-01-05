@@ -1,0 +1,178 @@
+body{
+
+    
+    font-family: "Roboto"
+} 
+
+
+  /*-----------navbar-----------*/
+
+.navbar{
+    background-color:#caccd1;
+
+    text-align: center
+    
+}
+
+
+
+/*------------about------------*/
+    
+
+
+
+#about{
+margin-top: 50px;
+margin-bottom: 150px;
+display: flex;
+}
+.infor-personelle{
+    margin-left:300px;
+}
+.image{
+    margin-left: 300px;
+}
+
+
+.main-btn{
+    background-color: black;
+    color: #d7d7d8;
+      padding: 0.5rem 1rem;
+  }
+  .main-btn:hover{
+      color:#caccd1;
+  }
+   
+    
+      
+     
+     
+    
+     .dev{
+      color:#6a737b;
+     }
+     /*----------------services------------------*/
+#services{
+    padding: 30px 0;
+}
+.services-list{
+    display: flex;
+   
+    gap: 40px;
+    margin-top: 50px;
+
+
+}
+.services-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+
+}
+
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div:hover{
+    background: red;
+   
+
+}
+/*-----------hobbies-----------*/
+
+.work-list{
+    display: flex;
+    
+    gap: 40px;
+    
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.work{
+    border-radius: 10px;
+   
+}
+.work img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: block;
+   
+}
+
+
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.bttn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid blue;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    
+    
+}
+.btn:hover{
+    background:blue;
+}
+/*-------------contact--------------*/
+
+.contact{
+    display: flex;
+}
+.contact-right{
+    margin-left: 300px;
+}
+.contact-left p{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.sub_title{
+    margin-left: 300px;
+}
+
+
+
+
+.btn{
+    display: inline-block;
+    background: blue;
+}
+.contact-right form{
+    width: 300px;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+   
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+
+
+
